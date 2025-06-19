@@ -1,64 +1,44 @@
 {
   "urls": [
     {
-      "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/XYQ.json",
-      "name": "XYQ"
-    },
-    {
-      "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/hackyjso_jzy.json",
-      "name": "hackyjso_jzy"
-    },
-    {
-      "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/franksun1211_0706.json",
-      "name": "franksun1211_0706"
-    },
-    {
-      "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/heroaku_pyn.json",
-      "name": "heroaku_pyn"
-    },
-    {
-      "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/heroaku_dtes.json",
-      "name": "heroaku_dtes"
-    },
-    {
-      "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/Dong-learn9_tvbox2.json",
-      "name": "Dong-learn9_tvbox2"
-    },
-    {
       "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/js.json",
       "name": "js"
     },
     {
-      "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/0825.json",
-      "name": "0825"
-    },
-    {
-      "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/liu673cn_m.json",
-      "name": "liu673cn_m"
-    },
-    {
-      "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/gaotianliuyun_0707.json",
-      "name": "gaotianliuyun_0707"
-    },
-    {
-      "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/0826.json",
-      "name": "0826"
-    },
-    {
-      "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/anaer_meow.json",
-      "name": "anaer_meow"
-    },
-    {
-      "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/0827.json",
-      "name": "0827"
+      "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/yw88075_js.json",
+      "name": "yw88075_js"
     },
     {
       "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/FanchangWang_tv.json",
       "name": "FanchangWang_tv"
     },
     {
-      "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/yw88075_js.json",
-      "name": "yw88075_js"
+      "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/0827.json",
+      "name": "0827"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/0821.json",
+      "name": "0821"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/XYQ.json",
+      "name": "XYQ"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/heroaku_pyn.json",
+      "name": "heroaku_pyn"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/franksun1211_0706.json",
+      "name": "franksun1211_0706"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/liu673cn_m.json",
+      "name": "liu673cn_m"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/0826.json",
+      "name": "0826"
     },
     {
       "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/heroaku_ayn.json",
@@ -69,8 +49,28 @@
       "name": "heroaku_ptest"
     },
     {
-      "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/0821.json",
-      "name": "0821"
+      "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/0825.json",
+      "name": "0825"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/gaotianliuyun_0707.json",
+      "name": "gaotianliuyun_0707"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/anaer_meow.json",
+      "name": "anaer_meow"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/hackyjso_jzy.json",
+      "name": "hackyjso_jzy"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/heroaku_dtes.json",
+      "name": "heroaku_dtes"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/Dong-learn9_tvbox2.json",
+      "name": "Dong-learn9_tvbox2"
     }
   ]
 }
