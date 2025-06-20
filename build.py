@@ -49,6 +49,7 @@ class ConfigProcessor:
         self.output_dir = Path(output_dir)
         self.session = requests.Session()
         self.session.verify = REQUEST_CONFIG["verify_ssl"]
+        self.original_configs = {}  # 存储原始配置信息，键为name，值为完整配置
     
     def create_directory(self, path: Path) -> None:
         """创建目录"""
@@ -196,6 +197,10 @@ class ConfigProcessor:
     
     def process_configs(self, configs: List[Dict[str, str]]) -> None:
         """处理所有配置"""
+        # 保存原始配置信息
+        for config in configs:
+            self.original_configs[config["name"]] = config
+        
         with TqdmColored(total=len(configs), desc="构建配置文件") as progress_bar:
             for config in configs:
                 try:
@@ -225,6 +230,14 @@ class ConfigProcessor:
         # 移除.json扩展名，直接返回文件名
         return filename.replace('.json', '')
     
+    def get_display_name(self, config_name: str) -> str:
+        """获取显示名称，优先使用alias，如果为空则使用name"""
+        if config_name in self.original_configs:
+            config = self.original_configs[config_name]
+            # 优先使用alias字段，如果为空则使用name字段
+            return config.get("alias", "") or config.get("name", config_name)
+        return config_name
+    
     def generate_urls_for_mirror(self, mirror_index: int, mirror_url: str) -> None:
         """为指定镜像源生成urls.json文件"""
         mirror_dir = self.output_dir / str(mirror_index)
@@ -233,8 +246,8 @@ class ConfigProcessor:
             logger.warning(f"镜像源目录不存在: {mirror_dir}")
             return
         
-        # 获取目录下的所有JSON文件，排除urls.json
-        json_files = [f for f in mirror_dir.glob("*.json") if f.name != "urls.json"]
+        # 获取目录下的所有JSON文件，排除urls.json，并按文件名排序
+        json_files = sorted([f for f in mirror_dir.glob("*.json") if f.name != "urls.json"], key=lambda x: x.name)
         
         if not json_files:
             logger.warning(f"镜像源目录 {mirror_dir} 中没有找到JSON文件")
@@ -244,6 +257,7 @@ class ConfigProcessor:
         
         for json_file in json_files:
             config_name = self.get_config_name_from_filename(json_file.name)
+            display_name = self.get_display_name(config_name)
             
             # 构建URL
             if mirror_url:
@@ -260,7 +274,7 @@ class ConfigProcessor:
             
             urls.append({
                 "url": url,
-                "name": config_name
+                "name": display_name
             })
         
         # 生成urls.json文件
