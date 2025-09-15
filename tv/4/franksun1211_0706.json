@@ -4,7 +4,7 @@
     "spider": "https://github.moeyy.xyz/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/spider.jar",
     "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
     "logo": "http://127.0.0.1:9978/file/TVBox/logo.png",
-	"notice": "[0706]FK20250915",
+	"notice": "[0706]FK20250918",
     "sites": [
         {
             "key": "豆瓣",
@@ -94,9 +94,6 @@
       
        
 {"key": "黑木耳","name": "黑木耳┃秒播","type": 4,"api": "http://zhangqun66.com/225.php","style": {"type": "rect","ratio": 1.33},"changeable": 1,"jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/2bdded774db1bfc1/f0821.jpg"}, 
-{"key":"原创","name":"修罗┃影视","type":3,"api":"csp_YCyzGuard","timeout":15,"playerType":1,"searchable":1,"quickSearch":1,"changeable":1,"jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/2bdded774db1bfc1/f0821.jpg"},
-
-{"key": "iKanbot","name": "iKanbot┃秒播","type": 3,"api": "csp_Ikanbot","jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/alantang1977/X/main/jar/iKanbot.jar","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://v.aikanbot.com","jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/2bdded774db1bfc1/f0821.jpg"},
 
         {
             "key": "追剧弹幕",
@@ -171,7 +168,23 @@
                 "parsesKey": "gHSLmx3JQRasgztO"
             }
         },
-        {
+         {
+            "key": "稀饭",
+            "name": "稀饭丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://app.xifanys.com",
+                "site": "",
+                "dataKey": "HM6Ly9yeS4ya3dvL",
+                "dataIv": "HM6Ly9yeS4ya3dvL",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
+            }
+        },
+		{
             "key": "加菲",
             "name": "加菲丨APP",
             "type": 3,
@@ -189,7 +202,7 @@
         },
         {
             "key": "咖啡",
-            "name": "咖啡丨APP",
+            "name": "🥇咖啡丨APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppQi",
@@ -266,7 +279,7 @@
         },
         {
             "key": "仓鼠",
-            "name": "仓鼠｜APP",
+            "name": "🥇仓鼠｜APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppQi",
@@ -281,7 +294,7 @@
         },
         {
             "key": "鲸鱼",
-            "name": "鲸鱼｜APP",
+            "name": "🥇鲸鱼｜APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppQi",
@@ -296,7 +309,7 @@
         },
         {
             "key": "一三",
-            "name": "一三丨APP",
+            "name": "🥇一三丨APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppQi",
@@ -374,22 +387,7 @@
                 "ua": ""
             }
         },
-        {
-            "key": "追番",
-            "name": "追番丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "",
-                "site": "https://ysappapi.oss-cn-shenzhen.aliyuncs.com/getapi.txt",
-                "dataKey": "A1akVPQmnnE4Fz9Z",
-                "dataIv": "A1akVPQmnnE4Fz9Z",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
+        
         {
             "key": "万能",
             "name": "万能丨APP",
@@ -470,22 +468,7 @@
                 "ua": ""
             }
         },
-        {
-            "key": "豆丁",
-            "name": "豆丁丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "",
-                "site": "http://45.66.157.77:9427/dd.txt",
-                "dataKey": "Xasdasd!123123dd",
-                "dataIv": "Xasdasd!123123dd",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
+      
         {
             "key": "蔬菜",
             "name": "蔬菜丨APP",
@@ -590,20 +573,7 @@
                 "version": ""
             }
         },
-        {
-            "key": "米诺",
-            "name": "米诺｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://www.milkidc.cn",
-                "dataKey": "20c79c979da8db0f",
-                "dataIv": "20c79c979da8db0f",
-                "deviceId": "",
-                "version": ""
-            }
-        },
+       
         {
             "key": "云速",
             "name": "云速｜APP",
@@ -947,82 +917,41 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////     
         
      
-        {
-            "key": "金牌影视",
-            "name": "金牌｜影视",
-            "type": 3,
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/py/金牌影视.py",
+       {
+            "key": "天翼影视",
+            "name": "天翼｜影视",
+            "type": 1,
+            "api": "http://7.qqqtv.top/api.php/provide/vod/",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "playerType": 2,
-            "ext": {
-                "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
-            }
+            "categories": [
+                "推荐",
+                "电影",
+                "电视剧",
+                "综艺",
+                "动漫"
+            ]
         },
         {
             "key": "猎手影视",
             "name": "猎手｜影视",
             "type": 3,
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/py/猎手影视.py",
+            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/qist/tvbox/master/xiaosa/py/猎手影视.py",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
+            "filterable": 1
         },
         {
-            "key": "火车影视",
-            "name": "火车｜影视",
+            "key": "零度影视",
+            "name": "零度｜影视",
             "type": 3,
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/py/火车影视.py",
+            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/qist/tvbox/master/xiaosa/py/零度影视.py",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-        {
-            "key": "美帕影视",
-            "name": "美帕｜影视",
-            "type": 3,
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/py/美帕影视.py",
-	    "jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/refs/heads/main/%E6%BD%87%E6%B4%92/spider.jar",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-        {
-            "key": "嗨皮影视",
-            "name": "嗨皮｜影视",
-            "type": 3,
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/py/嗨皮影视.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-        {
-            "key": "快看",
-            "name": "快看｜影视",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": "http://kkwk123.top/api.php/app/"
-        },
-        {
-            "key": "移动",
-            "name": "移动｜影视",
-            "type": 3,
-            "api": "csp_YD",
-            "searchable": 1,
-            "quickSearch": 1
+            "filterable": 1
         },
         {
             "key": "厂长影视",
@@ -1036,16 +965,18 @@
             "ext": "https://www.czzymovie.com/"
         },
         {
-            "key": "私人影视",
-            "name": "私人｜影视",
+            "key": "金牌影视",
+            "name": "金牌｜影视",
             "type": 3,
-            "api": "csp_Siren"
+            "api": "csp_Jpys",
+            "ext": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
         },
         {
             "key": "云播影视",
             "name": "云播｜影视",
             "type": 3,
-            "api": "csp_Tvyb"
+            "api": "csp_Tvyb",
+            "ext": "http://www.viptv01.com"
         },
         {
             "key": "奇优影视",
@@ -1073,82 +1004,13 @@
             "key": "饺子影视",
             "name": "饺子｜影视",
             "type": 3,
-            "api": "csp_Jiaozi",
-            "playerType": 2
-        },
-        {
-            "key": "火火影视",
-            "name": "火火｜影视",
-            "type": 3,
-            "api": "csp_SaoHuo",
-            "playerType": 2,
-            "ext": "https://shdy5.us"
-        },
-        {
-            "key": "尘落影视",
-            "name": "尘落｜影视",
-            "type": 3,
-            "api": "csp_Wetv",
-            "searchable": 1,
-            "quickSearch": 1,
-            "ext": "https://v.wetv.wang"
-        },
-        {
-            "key": "攻阁影视",
-            "name": "攻阁｜影视",
-            "type": 3,
-            "playerType": "2",
-            "api": "csp_Lggys"
-        },
-        {
-            "key": "鸭梨影视",
-            "name": "鸭梨｜影视",
-            "type": 3,
-            "api": "csp_KmeiJu"
-        },
-        {
-            "key": "绝对影视",
-            "name": "绝对｜影视",
-            "type": 3,
-            "api": "csp_FourK",
-            "ext": "https://www.4kvm.tv"
-        },
-        {
-            "key": "白白影视",
-            "name": "白白｜影视",
-            "type": 3,
-            "api": "csp_SuBaiBai",
-            "ext": "https://www.subaibai.com"
-        },
-        {
-            "key": "流光影视",
-            "name": "️流光｜影视",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_FreeOk"
-        },
-        {
-            "key": "农民影视",
-            "name": "农民｜影视",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_Wwys",
-            "ext": "https://www.wwgz.cn"
+            "api": "csp_Jiaozi"
         },
         {
             "key": "低端影视",
             "name": "低端｜影视",
             "type": 3,
             "api": "csp_Ddys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "来看影视",
-            "name": "来看｜影视",
-            "type": 3,
-            "api": "csp_Lkdy",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -1163,20 +1025,26 @@
             "filterable": 1
         },
         {
-            "key": "快看影视",
-            "name": "快看｜影视",
+            "key": "骚火影视",
+            "name": "骚火｜影视",
             "type": 3,
-            "api": "csp_Kuaikan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
+            "api": "csp_SaoHuo",
+            "playerType": 2,
+            "ext": "https://shdy5.us"
+        },
+        {
+            "key": "农民影视",
+            "name": "农民｜影视",
+            "type": 3,
+            "api": "csp_Wwys",
+            "ext": "https://www.wwgz.cn"
         },
         {
             "key": "采集之王",
             "name": "采集｜合集",
             "type": 3,
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/js/drpy2.min.js",
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/js/采集之王.js?type=url&params=.https://github.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/json/采集静态.json$1$1"
+            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/qist/tvbox/master/xiaosa/js/drpy2.min.js",
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/qist/tvbox/master/xiaosa/js/采集之王.js?type=url&params=.https://github.com/qist/tvbox/master/xiaosa/json/采集静态.json$1$1"
         },
         {
             "key": "爱看机器人",
@@ -1188,157 +1056,53 @@
             "filterable": 1
         },
         {
-            "key": "可可影视",
-            "name": "可可｜影视",
+            "key": "明星影视",
+            "name": "明星｜影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/XBPQ/可可影视.json"
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/qist/tvbox/master/xiaosa/XBPQ/明星影视.json"
         },
         {
-            "key": "海纳影视",
-            "name": "海纳｜影视",
+            "key": "麦田影视",
+            "name": "麦田｜影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/XBPQ/海纳影视.json"
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/qist/tvbox/master/xiaosa/XBPQ/麦田影视.json"
         },
         {
             "key": "面包影视",
             "name": "面包｜影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/XBPQ/面包影视.json"
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/qist/tvbox/master/xiaosa/XBPQ/面包影视.json"
         },
         {
             "key": "永乐影视",
             "name": "永乐｜影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/XBPQ/永乐影视.json"
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/qist/tvbox/master/xiaosa/XBPQ/永乐影视.json"
         },
         {
             "key": "雪糕影视",
             "name": "雪糕｜影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/XBPQ/雪糕影视.json"
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/qist/tvbox/master/xiaosa/XBPQ/雪糕影视.json"
         },
         {
-            "key": "流光影视",
-            "name": "流光｜影视",
+            "key": "三九影视",
+            "name": "三九｜影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/XBPQ/流光影视.json"
-        },
-        {
-            "key": "一起影视",
-            "name": "一起｜影视",
-            "type": 3,
-            "api": "csp_AppFree4K",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "w7TCmsONw6LDrsKYwoXCosKcwqDCrcKawqDDosKnwqTCoMKjwrPCosKpw5rDqsKjwpPCncKjwqfDmcOsw57Dn8KbwpRewqbDosOjwqHCpcKaWnvClcKpwqDCrcKawqDDnMKYZWNkwrHDl8Ogw5vCqsKWY8KTYsKxwqbCocKlwppaecKmV8KzwpPCocKuw6BoZGRpw53Dl8Krwq3CrWRjYmHCsMKawqbCmcKhdcKRwp7Cm8OHw5TDsMKgwrRTV+ecpOaTncKgwp/CmsKgw4rClMKiwqPClcOOw6XDpsKgwrRTV8KYwqTDrcOjw63Cs8KpYsKRwqDCoMOvwqTCqMOfw6zCmMKVwpjClMKnw6nDo8OpwqnCncKjwp/CnsKnw6PDosOpwrnCqMKiwpxtwqDCn8KawqDCvsKUwp59wqXDjsOlw6bCoMK0U1fCmMKkw63Do8OtwrPCqWLClMKdXsOvw5zDnsOzwqjClMKjwpnCkcKow5fDp8Okw69ib8KRwpPCtsOXw6fCn8OuwqLCm8KVwp7CtsOEw4PDhcK8dnh6dsOMwr/DkcOPw4B4e8KCVsOuw6XDpsK2wqFfUFfClMOew5bDrMOyw6rCp3vClcKpwqDCrcKawqDDscKowqnCmWbCr8KpwqHDtg=="
-        },
-        {
-            "key": "耐看影视",
-            "name": "耐看｜影视",
-            "type": 3,
-            "api": "csp_WebNK",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "w7TClcONw6LDrsKYwoXCosKcwpvCrcKcw6HDrsKnwqDCo2rCqMKiw7HDsMOxYcKewpvClMOvw5fCqMOmw59VXFLCpMOiw6PCnMKzwpzCjuWGtemEmOaPleWRnMKf5Yem5L6Q5ZGxbeW+oeintui1tOa8ieetjMOXwpvDtw=="
-        },
-        {
-            "key": "真心影视",
-            "name": "真心｜影视",
-            "type": 3,
-            "api": "csp_WebGZ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "思古影视",
-            "name": "思古｜影视",
-            "type": 3,
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/js/drpy2.min.js",
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/js/思古影视.js"
-        },
-        {
-            "key": "魔力高清",
-            "name": "魔力｜影视",
-            "type": 3,
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/js/drpy2.min.js",
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/js/魔力高清.js"
-        },
-        {
-            "key": "碟调影视",
-            "name": "碟调｜影视",
-            "type": 3,
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/js/drpy2.min.js",
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/js/碟调影视.js"
-        },
-        {
-            "key": "八号影视",
-            "name": "八号｜影视",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/XYQHiker/八号影视.json"
-        },
-        {
-            "key": "盒子影视",
-            "name": "盒子｜影视",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/XYQHiker/盒子影视.json"
-        },
-        {
-            "key": "骚火影视",
-            "name": "骚火｜影视",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/XYQHiker/骚火影视.json"
-        },
-        {
-            "key": "电影牛",
-            "name": "电影牛｜影视",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/XYQHiker/电影牛.json"
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/qist/tvbox/master/xiaosa/XBPQ/三九影视.json"
         },
         {
             "key": "剧圈圈",
-            "name": "剧圈圈｜影视",
+            "name": "剧圈｜影视",
             "type": 3,
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/js/drpy2.min.js",
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/js/剧圈圈.js"
-        },
-        {
-            "key": "看了么",
-            "name": "看了么｜影视",
-            "type": 3,
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/js/drpy2.min.js",
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/js/看了么.js"
-        },
-        {
-            "key": "茶杯狐",
-            "name": "茶杯狐｜影视",
-            "type": 3,
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/js/drpy2.min.js",
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/js/茶杯狐.js"
+            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/qist/tvbox/master/xiaosa/js/drpy2.min.js",
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/qist/tvbox/master/xiaosa/js/剧圈圈.js"
         },
         {
             "key": "1905",
@@ -1349,251 +1113,8 @@
             "quickSearch": 0,
             "filterable": 0
         },
-//////4K///////////////////////////////////////////////////////////////////////////
-{
-            "key": "玩偶哥哥",
-            "name": "玩偶｜4K弹幕",
-            "type": 3,
-            "api": "csp_PanWebShare",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/refs/heads/main/%E6%BD%87%E6%B4%92/json/wogg.json"
-        },
-        {
-            "key": "木偶",
-            "name": "木偶｜4K弹幕",
-            "type": 3,
-            "api": "csp_PanWebShare",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/refs/heads/main/%E6%BD%87%E6%B4%92/json/mogg.json"
-        },
-        {
-            "key": "蜡笔",
-            "name": "蜡笔｜4K弹幕",
-            "type": 3,
-            "api": "csp_PanWebShare",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/refs/heads/main/%E6%BD%87%E6%B4%92/json/lb.json"
-        },
-        {
-            "key": "至臻",
-            "name": "至臻｜4K弹幕",
-            "type": 3,
-            "api": "csp_PanWebShare",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/refs/heads/main/%E6%BD%87%E6%B4%92/json/zz.json"
-        },
-        {
-            "key": "多多",
-            "name": "多多｜4K弹幕",
-            "type": 3,
-            "api": "csp_PanWebShare",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/refs/heads/main/%E6%BD%87%E6%B4%92/json/yyds.json"
-        },
-        {
-            "key": "欧哥",
-            "name": "欧哥｜4K弹幕",
-            "type": 3,
-            "api": "csp_PanWebShare",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/refs/heads/main/%E6%BD%87%E6%B4%92/json/og.json"
-        },
-        {
-            "key": "二小",
-            "name": "二小｜4K弹幕",
-            "type": 3,
-            "api": "csp_PanWebShare",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/refs/heads/main/%E6%BD%87%E6%B4%92/json/ex.json"
-        },
-        {
-            "key": "大玩",
-            "name": "大玩｜4K弹幕",
-            "type": 3,
-            "api": "csp_PanWebShare",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/refs/heads/main/%E6%BD%87%E6%B4%92/json/dawo.json"
-        },
-        {
-            "key": "虎斑",
-            "name": "虎斑｜4K弹幕",
-            "type": 3,
-            "api": "csp_PanWebShare",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/refs/heads/main/%E6%BD%87%E6%B4%92/json/hb.json"
-        },
-        {
-            "key": "闪电",
-            "name": "闪电｜4K弹幕",
-            "type": 3,
-            "api": "csp_PanWebShare",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/refs/heads/main/%E6%BD%87%E6%B4%92/json/sd.json"
-        },
-        {
-            "key": "奥秘",
-            "name": "奥秘｜4K弹幕",
-            "type": 3,
-            "api": "csp_PanWebShare",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/refs/heads/main/%E6%BD%87%E6%B4%92/json/am.json"
-        },
-        {
-            "key": "团长",
-            "name": "团长｜4K弹幕",
-            "type": 3,
-            "api": "csp_PanWebTz",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "雷鲸",
-            "name": "雷鲸｜4K弹幕",
-            "type": 3,
-            "api": "csp_PanWebShareCloudLJ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "style": {
-                "type": "list",
-                "ratio": 1.433
-            },
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/refs/heads/main/%E6%BD%87%E6%B4%92/json/lj.json"
-        },
-        {
-            "key": "海绵",
-            "name": "海绵｜4K弹幕",
-            "type": 3,
-            "api": "csp_PanWebShareCloudHM",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "style": {
-                "type": "list",
-                "ratio": 1.433
-            },
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/refs/heads/main/%E6%BD%87%E6%B4%92/json/hm.json"
-        },
-        {
-            "key": "夸父",
-            "name": "夸父｜4K弹幕",
-            "type": 3,
-            "api": "csp_PanWebShareCloudKF",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "style": {
-                "type": "list",
-                "ratio": 1.433
-            },
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/refs/heads/main/%E6%BD%87%E6%B4%92/json/kf.json"
-        },
-        {
-            "key": "趣盘",
-            "name": "趣盘｜4K弹幕",
-            "type": 3,
-            "api": "csp_PanWebQu",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "style": {
-                "type": "list",
-                "ratio": 1.433
-            },
-            "ext": {
-                "url": "https://www.qupanshe.com"
-            }
-        },
-        {
-            "key": "盘库",
-            "name": "盘库｜4K弹幕",
-            "type": 3,
-            "api": "csp_PanWebKuBa",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "url": "https://panku8.com,https://yipanso.com"
-            }
-        },
-        {
-            "key": "聚搜",
-            "name": "聚搜｜4K弹幕",
-            "type": 3,
-            "api": "csp_PanWebSearch",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "双星",
-            "name": "双星｜4K弹幕",
-            "type": 3,
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/refs/heads/main/%E6%BD%87%E6%B4%92/js/cloud.min.js",
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/refs/heads/main/%E6%BD%87%E6%B4%92/js/双星.js",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "懒盘",
-            "name": "懒盘｜4K弹幕",
-            "type": 3,
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/refs/heads/main/%E6%BD%87%E6%B4%92/js/cloud.min.js",
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/refs/heads/main/%E6%BD%87%E6%B4%92/js/懒盘.js",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "米搜",
-            "name": "米搜｜4K弹幕",
-            "type": 3,
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/refs/heads/main/%E6%BD%87%E6%B4%92/js/cloud.min.js",
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/refs/heads/main/%E6%BD%87%E6%B4%92/js/米搜.js",
-            "style": {
-                "type": "list"
-            }
-        },
+//////++++++++++++++++++4K++++++++++++++++++++++++///////////////////////////////////////////////////////////////////////////
+
 
 ////////////////////////////////////////////////////////////////////////////////////////
         {"key":"JRKAN直播","name":"⚽JRKAN直播","type":3,"api":"https://ghproxy.net/https://raw.githubusercontent.com/yoursmile66/TVBox/main/js/lib/drpy2.min.js","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://ghproxy.net/https://raw.githubusercontent.com/yoursmile66/TVBox/main/js/JRKAN直播.js"},
@@ -1756,21 +1277,32 @@
                 "danmu": true
             }
         },
-        {
+////////++++++++++BT+++++++++++++++++++++++++++//////////////////////////////////////////////////////////////////////////////////////////
+ {
             "key": "荐片",
             "name": "荐片｜磁力",
             "api": "csp_Jianpian",
-            "type": 3
+            "type": 3,
+            "ext": "https://api.ztcgi.com"
         },
         {
-            "key": "修罗影视",
+            "key": "修罗",
             "name": "修罗｜磁力",
+            "api": "csp_Xlys",
             "type": 3,
-            "api": "csp_XBPQ",
+            "ext": "https://xl01.com.de"
+        },
+        {
+            "key": "七味",
+            "name": "七味｜磁力",
+            "type": 3,
+            "api": "csp_QnMp4",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/XBPQ/修罗影视.json"
+            "ext": {
+                "url": "https://www.pkmp4.xyz,https://www.qwnull.com,https://www.qwmkv.com,https://www.qwfilm.com,https://www.qnmp4.com,https://www.qnnull.com,https://www.qnhot.com"
+            }
         },
         {
             "key": "80S",
@@ -1791,22 +1323,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://www.xb6v.com"
-        },
-        {
-            "key": "SeedHub",
-            "name": "SeedHub｜磁力",
-            "type": 3,
-            "api": "csp_SeedHub",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "磁力熊",
-            "name": "磁力熊｜磁力",
-            "type": 3,
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/JS/drpy2.min.js",
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/JS/磁力熊.js"
         },
         {
             "key": "美剧迷",
@@ -1834,42 +1350,24 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/XYQHiker/电影港.json"
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/qist/tvbox/master/xiaosa/XYQHiker/电影港.json"
         },
         {
-            "key": "布谷TV",
-            "name": "布谷TV｜磁力",
+            "key": "狐狸君",
+            "name": "狐狸君｜磁力",
             "type": 3,
             "api": "csp_XBPQ",
+            "changeable": 1,
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/XBPQ/布谷TV.json"
-        },
-        {
-            "key": "BT天堂",
-            "name": "BT天堂｜磁力",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/XYQHiker/BT天堂.json"
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/qist/tvbox/master/xiaosa/XBPQ/狐狸君.json"
         },
         {
             "key": "Mp4电影",
             "name": "Mp4电影｜磁力",
             "type": 3,
             "api": "csp_Mp4Mov",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "酷吧电影",
-            "name": "酷吧电影｜磁力",
-            "type": 3,
-            "api": "csp_KubaCL",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -1883,6 +1381,19 @@
             "quickSearch": 1,
             "filterable": 1
         },
+        {
+            "key": "电影天堂",
+            "name": "电影天堂｜磁力",
+            "type": 3,
+            "api": "csp_DyGod",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },        
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        
         {
             "key": "天翼",
             "name": "天翼｜4K",
@@ -2587,6 +2098,11 @@
         "static-mozai.4gtv.tv"
     ]
 }
+
+
+
+
+
 
 
 
