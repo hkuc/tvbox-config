@@ -2,23 +2,19 @@
     "urls": [
         {
             "url": "http://www.饭太硬.com/tv",
-            "name": "饭太硬【2025-09-15】"
+            "name": "饭太硬【2025-10-20】"
         },
         {
             "url": "http://tvbox.王二小放牛娃.top/",
             "name": "王二小放牛娃"
         },
         {
-            "url": "https://mpanso.me/DEMO.json",
-            "name": "小米"
-        },
-        {
-            "url": "https://github.guyuexuan.ip-ddns.com/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
-            "name": "南风"
-        },
-        {
             "url": "http://ok321.top/tv",
             "name": "OK吊炸天"
+        },
+        {
+            "url": "https://github.allproxy.dpdns.org/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
+            "name": "南风"
         },
         {
             "url": "http://cdn.qiaoji8.com/tvbox.json",
@@ -29,12 +25,24 @@
             "name": "俊佬"
         },
         {
-            "url": "https://github.guyuexuan.ip-ddns.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
+            "url": "https://github.allproxy.dpdns.org/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
             "name": "香雅情"
         },
         {
-            "url": "https://github.guyuexuan.ip-ddns.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
-            "name": "高天流云"
+            "url": "https://www.252035.xyz/p/jsm.json",
+            "name": "PG本地包"
+        },
+        {
+            "url": "https://www.252035.xyz/z/FongMi.json",
+            "name": "真心本地包"
+        },
+        {
+            "url": "https://cnb.cool/fish2018/pg/-/git@master/jsm.json",
+            "name": "PG本地包备用"
+        },
+        {
+            "url": "https://cnb.cool/fish2018/zx/-/git@master/FongMi.json",
+            "name": "真心本地包备用"
         }
     ]
 }
