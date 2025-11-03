@@ -6,7 +6,7 @@
 	//"spider": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TXT/main/TVbox/E8jin/xyqxbpq.jar",
     "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
     "logo": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/sun.jpg",
-	"notice": "[0706]FK20251028-C 🍇",
+	"notice": "[0706]FK20251028-D🍍",
 	 "lives": [
     {
       "name": "直播",
@@ -644,6 +644,17 @@
             "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/JS/路漫漫.js"
         },
         {
+      "key": "嗷呜动漫.py",
+      "name": "嗷呜动漫",
+      "type": 3,
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/PY/嗷呜动漫.py",
+      "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TXT/main/TVbox/E8jin/xyqxbpq.jar",
+	  "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    
+		{
             "key": "56动漫",
             "name": "56｜动漫",
             "type": 3,
@@ -2621,6 +2632,8 @@
         "static-mozai.4gtv.tv"
     ]
 }
+
+
 
 
 
