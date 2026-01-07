@@ -6,7 +6,7 @@
 	//"spider": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TXT/main/TVbox/E8jin/xyqxbpq.jar",
     "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
     "logo": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/sun.jpg",
-	"notice": "[0706]FK20260106 🦓",
+	"notice": "[0706]FK20260106 🍒",
 	 
    
     "sites": [
@@ -47,7 +47,20 @@
             "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/JS/路漫漫.js"
         },
 		
+
 {
+            "key": "原创",
+            "name": "🥇原创✨┃FTY",
+            "type": 3,
+            "api": "csp_YCyzGuard",
+            "timeout": 30,
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+			"jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/refs/heads/main/%E9%A5%AD%E5%A4%AA%E7%A1%AC/spider.jar",
+            "changeable": 1
+        },
+	 {
             "key": "立播弹幕",
             "name": "🥇LibVio✨｜弹幕",
             "type": 3,
@@ -64,19 +77,8 @@
                 "danmu": true
             }
         },
-{
-            "key": "原创",
-            "name": "🥇原创✨┃FTY",
-            "type": 3,
-            "api": "csp_YCyzGuard",
-            "timeout": 30,
-            "playerType": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-			"jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/refs/heads/main/%E9%A5%AD%E5%A4%AA%E7%A1%AC/spider.jar",
-            "changeable": 1
-        },
-	 {
+		
+		{
       "key": "云云.py",
       "name": "🥇云云✨",
       "type": 3,
@@ -2973,6 +2975,8 @@
         "static-mozai.4gtv.tv"
     ]
 }
+
+
 
 
 
