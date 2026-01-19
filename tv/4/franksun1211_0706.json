@@ -4,7 +4,7 @@
     "spider": "https://github.moeyy.xyz/https://raw.githubusercontent.com/qist/tvbox/master/xiaosa/spider.jar",
 	"wallpaper": "http://bobohome.ignorelist.com:20247/bing",
     "logo": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/sun.jpg",
-	"notice": "[0706精簡]FK20260118-A 🍊",
+	"notice": "[0706JJ]CK20260119-B 🍋",
 	 
    
     "sites": [
@@ -26,6 +26,16 @@
             "filterable": 1
         },
 		{
+      "key": "云云.py",
+      "name": "🥇云云高清✨",
+      "type": 3,
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TXT/main/TVbox/E8jin/lib/云云.py",
+	  "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TXT/main/TVbox/E8jin/xyqxbpq.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+		{
             "key": "UVod",
             "name": "🥇優視頻✨",
             "type": 3,
@@ -44,15 +54,7 @@
 		    "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/spider.jar",
             "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/TVBoxOSC/tvbox/JS/爱弹幕.js"
         },
-	 {
-      "key": "AnimeGiriGiri",
-      "name": "🥇💢GiriGiri爱✨｜动漫",
-      "type": 3,
-      "api": "csp_AnimeGiriGiriGuard",
-	  "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/JAR/wxer.txt",	 
-      "searchable": 1,
-      "changeable": 1
-    },
+	
 	{
             "key": "路漫漫",
             "name": "🥇💢路漫漫✨｜动漫",
@@ -96,16 +98,7 @@
             }
         },
 		
-		{
-      "key": "云云.py",
-      "name": "🥇云云高清✨",
-      "type": 3,
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TXT/main/TVbox/E8jin/lib/云云.py",
-	  "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TXT/main/TVbox/E8jin/xyqxbpq.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+		
 	   {
             "key": "花柳",
             "name": "🥇花柳✨｜APP",
@@ -117,35 +110,7 @@
                 "ver": 2
             }
         },
-		{
-      "key": "WexHanXiaoQuan",
-      "name": "🥇韩剧✨┃秒播",
-      "type": 3,
-      "api": "csp_WexHanXiaoQuanGuard",
-	  "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/JAR/wxer.txt",	 	
-      "searchable": 1,
-      "changeable": 1
-    },
-    
-    {
-      "key": "賤賤",
-      "name": "🥇贱片✨┃秒播",
-      "type": 3,
-      "api": "csp_WexJianPianGuard",
-	  "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/JAR/wxer.txt",	 
-      "searchable": 1,
-      "changeable": 1
-    },
-   
-    {
-      "key": "WexXiaoPingGuo",
-      "name": "🥇苹果✨┃秒播",
-      "type": 3,
-      "api": "csp_WexXiaoPingGuoGuard",
-	  "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/APP/JAR/wxer.txt",	 
-      "searchable": 1,
-      "changeable": 1
-    },
+	
 		{
             "key": "仓鼠",
             "name": "🥇仓鼠✨｜APP",
@@ -292,9 +257,7 @@
             }
         },
 		
-        
-      
-     
+    
 //////++++++++++++++++動漫++++++++++++++/////////////////////////////////////////////////////////////////////////////////////////////////////////////
      
         {
@@ -341,15 +304,7 @@
             "filterable": 1
         },
         
-        {
-            "key": "低端影视",
-            "name": "低端｜影视",
-            "type": 3,
-            "api": "csp_Ddys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
+       
         
        
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1575,6 +1530,71 @@
                 }
             }
         },
+		 {
+            "name": "聚合1",
+            "type": 3,
+            "url": "Demo"
+        },
+        {
+            "name": "聚合0",
+            "type": 3,
+            "url": "Web"
+        },
+        {
+            "name": "ikun",
+            "type": 0,
+            "url": "https://jx.hls.one/?url="
+        },
+        {
+            "name": "77",
+            "type": 0,
+            "url": "https://jx.77flv.cc/?url="
+        },
+        {
+            "name": "A6",
+            "type": 0,
+            "url": "https://pl.a6club.com/player/analysis.php?v="
+        },
+        {
+            "name": "8090",
+            "type": 0,
+            "url": "https://www.8090g.cn/?url="
+        },
+        {
+            "name": "M3u8TV",
+            "type": 0,
+            "url": "https://jx.m3u8.tv/jiexi/?url="
+        },
+        {
+            "name": "CK",
+            "type": 0,
+            "url": "https://www.ckplayer.vip/jiexi/?url="
+        },
+        {
+            "name": "冰豆",
+            "type": 0,
+            "url": "https://bd.jx.cn/?url="
+        },
+        {
+            "name": "XY",
+            "type": 0,
+            "url": "https://jx.xymp4.cc/?url="
+        },
+        {
+            "name": "推荐",
+            "type": 1,
+            "url": "https://zy.qiaoji8.com/gouzi.php?url=94b07e0b2c0e8244&url="
+        },
+        {
+            "name": "臻享",
+            "type": 1,
+            "url": "https://150.138.78.37:4399/api?key=94b07e0b2c0e8244&url="
+        },
+        {
+            "name": "优选",
+            "type": 1,
+            "url": "http://1.94.221.189:88/algorithm.php?url="
+        },
 		{
             "name": "Quad9",
             "url": "https://dns.quad9.net/dns-quer",
@@ -1980,6 +2000,14 @@
         "static-mozai.4gtv.tv"
     ]
 }
+
+
+
+
+
+
+
+
 
 
 
