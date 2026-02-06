@@ -4,7 +4,7 @@
     "spider": "https://github.moeyy.xyz/https://raw.githubusercontent.com/qist/tvbox/master/xiaosa/spider.jar",
 	"wallpaper": "http://bobohome.ignorelist.com:20247/bing",
     "logo": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/sun.jpg",
-	"notice": "[0706JJ]CK20260201 🍓",
+	"notice": "[0706JJ]CK20260206-A 🍈",
 	 
    
     "sites": [
@@ -374,6 +374,35 @@
        
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////++++++++++4K+++++++++++++++++++++++++++//////////////////////////////////////////////////////////////////////////////////////////
+{
+            "key": "盘它",
+            "name": "🥇盘它移動｜4K",
+            "type": 3,
+            "api": "csp_PanWebShareCloudPT",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "timeout": 60
+        },
+{
+            "key": "多多",
+            "name": "多多｜4K",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": [
+                    "https://tv.yydsys.top",
+                    "https://tv.yydsys.cc",
+                    "https://tv.214521.xyz"
+                ]
+            },
+            "timeout": 60
+        },
 {
             "key": "快映",
             "name": "快映｜4K",
@@ -1944,6 +1973,9 @@
         "static-mozai.4gtv.tv"
     ]
 }
+
+
+
 
 
 
