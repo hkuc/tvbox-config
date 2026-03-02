@@ -1,7 +1,7 @@
 {
   "urls": [
     {
-      "name": "饭太硬 [2026-02-10 12:58]",
+      "name": "饭太硬 [2026-03-02 12:45]",
       "url": "http://www.饭太硬.com/tv"
     },
     {
@@ -29,12 +29,8 @@
       "url": "https://github.allproxy.dpdns.org/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json"
     },
     {
-      "name": "PG本地包",
-      "url": "https://www.252035.xyz/p/jsm.json"
-    },
-    {
       "name": "真心本地包",
-      "url": "https://www.252035.xyz/z/FongMi.json"
+      "url": "https://cnb.cool/fish2018/zx/-/git/raw/master/FongMi.json"
     }
   ]
 }
