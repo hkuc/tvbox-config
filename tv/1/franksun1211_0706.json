@@ -4,7 +4,7 @@
     "spider": "https://raw.kkgithub.com/qist/tvbox/master/xiaosa/spider.jar",
 	"wallpaper": "http://bobohome.ignorelist.com:20247/bing",
     "logo": "https://raw.kkgithub.com/franksun1211/TVBOX/main/sun.jpg",
-	"notice": "[0706JJ]CK20260228 🥭",
+	"notice": "[0706JJ]CK20260303-B 🍍",
 	 
    
     "sites": [
@@ -197,9 +197,44 @@
              },
             "timeout": 60
         },
+		{
+            "key": "夸克云盘",
+            "name": "我的｜夸克",
+            "type": 3,
+            "api": "csp_PanQuark",
+            "searchable": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            },
+            "ext": "https://raw.kkgithub.com/qist/tvbox/master/xiaosa/json/quarkShare.json",
+			 "timeout": 60
+        },
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         
+         
+        {
+            "key": "Symx",
+            "name": "🥇山有✨｜MYER",
+            "type": 3,
+            "api": "csp_Symx",
+			"jar": "https://raw.kkgithub.com/ls125781003/tvboxtg/main/摸鱼儿/spider.jar",
+            "ext": "https://film.symx.club"
+        },
         
+        
+          {
+            "key": "RenRen",
+            "name": "🥇人人✨｜MYER",
+            "type": 3,
+            "api": "csp_RenRen",
+            "searchable": 1,
+			"jar": "https://raw.kkgithub.com/ls125781003/tvboxtg/main/摸鱼儿/spider.jar",
+            "quickSearch": 1,
+            "filterable": 0
+        },
         
         {
             "key": "文采",
@@ -311,7 +346,28 @@
         },
         {"key": "魔都","name": "🥇💢魔都✨","type": 0,"api": "https://www.mdzyapi.com/api.php/provide/vod/at/xml/","searchable": 0,"changeable": 0,"categories":["国产动漫","日韩动漫","欧美动漫","港台动漫","动漫电影","里番动漫"]},
                  
-       
+         {
+            "key": "AoWu",
+            "name": "嗷呜｜动漫",
+            "type": 3,
+            "api": "csp_AoWu",
+            "searchable": 1,
+			 "jar": "https://raw.kkgithub.com/ls125781003/tvboxtg/main/摸鱼儿/spider.jar",
+            "quickSearch": 1,
+            "filterable": 1
+        },
+		{
+            "key": "XiFan",
+            "name": "稀饭｜动漫",
+            "type": 3,
+            "api": "csp_XiFan",
+            "searchable": 1,
+			"jar": "https://raw.kkgithub.com/ls125781003/tvboxtg/main/摸鱼儿/spider.jar",
+            "quickSearch": 1,
+            "ext": {
+                "SiteUrl": "https://dm.xifanacg.com"
+            }
+        },
         
        
        
@@ -543,20 +599,7 @@
         },
   //////++++++++++++++搜索++++++++++++++////////////////////////////////////////////////////////////////////////////////////////       
          
-        {
-            "key": "夸克云盘",
-            "name": "我的｜夸克",
-            "type": 3,
-            "api": "csp_PanQuark",
-            "searchable": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list",
-                "ratio": 1.433
-            },
-            "ext": "https://raw.kkgithub.com/qist/tvbox/master/xiaosa/json/quarkShare.json"
-        },
+        
         
         
         {
@@ -2032,6 +2075,9 @@
         "static-mozai.4gtv.tv"
     ]
 }
+
+
+
 
 
 
