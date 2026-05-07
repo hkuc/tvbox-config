@@ -3,7 +3,7 @@
     "spider": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/摸鱼儿/spider.jar",
     "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
     "logo": "https://github.moeyy.xyz/https://raw.githubusercontent.com/franksun1211/TVBOX/main/sun.jpg",
-	"notice": "[0706JJ]CK20260505 🍏",
+	"notice": "[0706JJ]CK20260507-D 🍑",
     "sites": [
         {
             "key": "Douban",
@@ -102,6 +102,7 @@
             "api": "csp_KanqiuGuard",
             "timeout": 15,
             "searchable": 0,
+			"url": "https://play.88player.top/m3u8.html?url=",
             "changeable": 0,
 			"jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/refs/heads/main/%E9%A5%AD%E5%A4%AA%E7%A1%AC/spider.jar",
             "style": {
@@ -446,7 +447,7 @@
         }
         
     ],
-    "lives": [],
+   
      "parses": [
         {
             "name": "臻享",
@@ -1037,6 +1038,8 @@
             ]
         }
     ],
+	///////////////////////////////////////
+	///////////////////////////////////////////////////////
     "ads": [
         "mimg.0c1q0l.cn",
         "www.googletagmanager.com",
