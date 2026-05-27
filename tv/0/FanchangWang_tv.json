@@ -1,8 +1,12 @@
 {
   "urls": [
     {
-      "name": "饭太硬 [2026-05-22 14:39]",
-      "url": "http://www.饭太硬.com/tv"
+      "name": "订阅地址改了请重新设置",
+      "url": "http://www.饭太硬.net/tv"
+    },
+    {
+      "name": "肥猫",
+      "url": "http://肥猫.net/"
     },
     {
       "name": "王二小放牛娃",
@@ -13,12 +17,16 @@
       "url": "https://github.allproxy.dpdns.org/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json"
     },
     {
-      "name": "巧技",
-      "url": "http://cdn.qiaoji8.com/tvbox.json"
-    },
-    {
       "name": "香雅情",
       "url": "https://github.allproxy.dpdns.org/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json"
+    },
+    {
+      "name": "摸鱼儿",
+      "url": "https://我不是.摸鱼儿.top"
+    },
+    {
+      "name": "凯速",
+      "url": "https://6800.kstore.vip/fish.json"
     },
     {
       "name": "PG本地包",
