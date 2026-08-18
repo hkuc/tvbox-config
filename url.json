@@ -102,10 +102,17 @@
         "path": "https://github.com/hackyjso/TVbox/"
     },
     {
-        "url": "https://github.com/FanchangWang/tvbox_config/raw/main/tvbox.json",
+        "url": "https://github.com/FanchangWang/tvbox_config/blob/main/dist/my.json",
         "name": "FanchangWang_tv",
         "alias": "主流集合",
         "baes": "https://github.com/FanchangWang/tvbox_config/",
-        "path": "https://github.com/FanchangWang/tvbox_config/raw/main/"
+        "path": "https://github.com/FanchangWang/tvbox_config/raw/main/dist"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/hkuc/public/main/box/ai.json",
+        "name: "hkuc_ai",
+        "alias": "ai 剧",
+        "baes": "https://github.com/hkuc/public/",
+        "path": "https://github.com/hkuc/public/raw/main/box/"
     }
 ]
