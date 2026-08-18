@@ -1,0 +1,24 @@
+{
+  "sites": [
+    {
+      "key": "hgai",
+      "name": "AI剧",
+      "type": 3,
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/hkuc/public/main/box/ai.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "timeout": 30,
+      "ext": {
+        "siteBase": "https://huangguoai.com",
+        "timeoutMs": 30000,
+        "categories": [
+          { "type_id": "ai-duanju", "type_name": "AI成人短剧" },
+          { "type_id": "ai-manju", "type_name": "AI成人漫剧" },
+          { "type_id": "ai-huanlian", "type_name": "AI换脸" },
+          { "type_id": "ai-mogai", "type_name": "AI魔改" }
+        ]
+      }
+    }
+  ]
+}

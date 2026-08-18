@@ -61,6 +61,10 @@
       "name": "heroaku_pyn"
     },
     {
+      "url": "https://gcore.jsdelivr.net/gh/hkuc/tvbox-config@main/tv/2/hkuc_ai.json",
+      "name": "ai 剧"
+    },
+    {
       "url": "https://gcore.jsdelivr.net/gh/hkuc/tvbox-config@main/tv/2/js.json",
       "name": "高天流云 JS"
     },

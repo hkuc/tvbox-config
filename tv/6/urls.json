@@ -61,6 +61,10 @@
       "name": "heroaku_pyn"
     },
     {
+      "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/hkuc_ai.json",
+      "name": "ai 剧"
+    },
+    {
       "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/js.json",
       "name": "高天流云 JS"
     },
