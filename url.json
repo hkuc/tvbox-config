@@ -102,7 +102,7 @@
         "path": "https://github.com/hackyjso/TVbox/"
     },
     {
-        "url": "https://github.com/FanchangWang/tvbox_config/blob/main/dist/my.json",
+        "url": "https://raw.githubusercontent.com/FanchangWang/tvbox_config/main/dist/my.json",
         "name": "FanchangWang_tv",
         "alias": "主流集合",
         "baes": "https://github.com/FanchangWang/tvbox_config/",
