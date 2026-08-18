@@ -110,7 +110,7 @@
     },
     {
         "url": "https://raw.githubusercontent.com/hkuc/public/main/box/ai.json",
-        "name: "hkuc_ai",
+        "name": "hkuc_ai",
         "alias": "ai 剧",
         "baes": "https://github.com/hkuc/public/",
         "path": "https://github.com/hkuc/public/raw/main/box/"
