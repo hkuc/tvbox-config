@@ -1,7 +1,7 @@
 {
   "urls": [
     {
-      "name": "饭太硬 [2026-11-03 18:17]",
+      "name": "饭太硬 [2026-11-04 18:08]",
       "url": "http://www.饭太硬.net/tv"
     },
     {
@@ -27,6 +27,14 @@
     {
       "name": "凯速",
       "url": "https://6800.kstore.vip/fish.json"
+    },
+    {
+      "name": "PG本地包",
+      "url": "https://www.252035.xyz/p/jsm.json"
+    },
+    {
+      "name": "真心本地包",
+      "url": "https://www.252035.xyz/z/FongMi.json"
     }
   ]
 }
